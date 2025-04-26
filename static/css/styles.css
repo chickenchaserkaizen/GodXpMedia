@@ -114,7 +114,8 @@ img {
 }
 
 .btn-primary:hover {
-    background-color: var(--dark-bg);
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -126,8 +127,8 @@ img {
 }
 
 .btn-secondary:hover {
-    background-color: var(--secondary-color);
-    color: var(--light-text);
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -290,6 +291,11 @@ img {
     border-radius: var(--border-radius);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1s ease-in-out;
+    margin: 0 auto;
+}
+
+.hero-content.text-center {
+    text-align: center;
 }
 
 .hero h1 {
@@ -306,6 +312,7 @@ img {
 .hero-buttons {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 @keyframes fadeIn {
@@ -390,9 +397,15 @@ img {
 
 .contact-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin: 0 auto;
     gap: 50px;
     align-items: center;
+}
+
+.contact-content.text-center {
+    text-align: center;
 }
 
 .contact-info h3 {
@@ -442,6 +455,11 @@ img {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.footer-links.horizontal {
+    flex-direction: row;
+    gap: 30px;
 }
 
 .footer-links a {
