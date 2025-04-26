@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GodXP - Church Web Design & Digital Services</title>
+    <meta name="description" content="GodXP specializes in church web design, social media management, branding, ecommerce, and product design for spiritual organizations.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✝️</text></svg>">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#hero">
+                        <span class="logo-text">GodXP</span>
+                    </a>
+                </div>
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#about" class="nav-link">About Us</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Elevate Your Church's Digital Presence</h1>
+                <p>Web design and digital services for churches and spiritual organizations</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1496449903678-68ddcb189a24" alt="Spiritual branding and digital services" class="img-fluid">
+                </div>
+                <div class="about-text">
+                    <p>GodXP, founded in 2016, began as a spiritual media company with a mission to fuel a culture of spiritual fitness. Starting as an ecommerce store and podcast, we have grown to produce a diverse range of content, including podcasts, clothing, books, online courses, and social media content.</p>
+                    <p>Over the years, we have expanded our services to include digital marketing support for spiritual organizations, recognizing the need for effective online presence in today's digital age. Now, as we relaunch GodXP, we are focusing primarily on church web design, while also offering social media management, brand/logo design, ecommerce management, and product/merch design.</p>
+                    <p>At GodXP, we are committed to blending our spiritual values with cutting-edge digital solutions. Our founder, Anthony Polanco, brings a unique blend of creativity and expertise, with a background in music, podcasting, digital marketing, spiritual coaching, and martial arts.</p>
+                    <p>Join us at GodXP as we continue to evolve and serve churches and spiritual organizations with dedication, excellence, and a deep commitment to spiritual growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <!-- Church Web Design -->
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff" alt="Church Web Design" class="img-fluid">
+                </div>
+                <div class="service-content">
+                    <h3>Church Web Design</h3>
+                    <p>In today's digital world, a strong online presence is essential for churches to connect with their congregation and reach new members. At GodXP, we specialize in creating custom, user-friendly websites tailored to the unique needs of spiritual organizations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Responsive Design: Ensuring your website works seamlessly on all devices, from desktops to smartphones.</li>
+                        <li><i class="fas fa-check-circle"></i> Intuitive Navigation: Providing easy access to sermons, events, and community resources for a better user experience.</li>
+                        <li><i class="fas fa-check-circle"></i> Multimedia Integration: Incorporating videos, podcasts, and other content to engage your audience.</li>
+                        <li><i class="fas fa-check-circle"></i> Secure Donation Gateways: Supporting your ministry with safe and reliable online giving options.</li>
+                        <li><i class="fas fa-check-circle"></i> SEO Optimization: Improving your website's visibility on search engines to attract new visitors.</li>
+                    </ul>
+                    <p>We understand the importance of reflecting your church's identity and values through your website, and we work closely with you to ensure that your online presence is both professional and inspiring.</p>
+                </div>
+            </div>
+            
+            <!-- Social Media Management -->
+            <div class="service-item reverse">
+                <div class="service-image">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Social Media Management" class="img-fluid">
+                </div>
+                <div class="service-content">
+                    <h3>Social Media Management</h3>
+                    <p>Social media is a powerful tool for churches to engage with their community, share inspiring content, and build relationships. Our social media management services help you maintain an active and engaging presence on platforms like Facebook, Instagram, X, and more.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Content Strategy Development: Crafting a plan that aligns with your church's mission and goals.</li>
+                        <li><i class="fas fa-check-circle"></i> Post Creation and Scheduling: Designing and sharing images, videos, and text to keep your audience engaged.</li>
+                        <li><i class="fas fa-check-circle"></i> Audience Engagement: Responding to comments and messages to foster community connections.</li>
+                        <li><i class="fas fa-check-circle"></i> Performance Analysis: Tracking metrics to refine and improve your social media strategy.</li>
+                        <li><i class="fas fa-check-circle"></i> Targeted Advertising: Running campaigns to reach new audiences and grow your community.</li>
+                    </ul>
+                    <p>Let us help you leverage social media to spread your message and strengthen your community.</p>
+                </div>
+            </div>
+            
+            <!-- Brand/Logo Design -->
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="https://images.unsplash.com/photo-1523681504355-8b4860f99a58" alt="Brand and Logo Design" class="img-fluid">
+                </div>
+                <div class="service-content">
+                    <h3>Brand/Logo Design</h3>
+                    <p>A strong brand identity is essential for any organization, including churches. Our brand and logo design services help you create a visual identity that resonates with your audience and reflects your spiritual values.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Research and Discovery: Understanding your church's unique story, mission, and values.</li>
+                        <li><i class="fas fa-check-circle"></i> Logo Design: Creating memorable, versatile, and meaningful logos that represent your ministry.</li>
+                        <li><i class="fas fa-check-circle"></i> Brand Guidelines: Developing standards to ensure consistency across all platforms and materials.</li>
+                        <li><i class="fas fa-check-circle"></i> Visual Assets: Designing banners, icons, and social media graphics to enhance your brand.</li>
+                    </ul>
+                    <p>Your brand is more than just a logo; it's the face of your ministry. Let us help you craft a brand that inspires and connects.</p>
+                </div>
+            </div>
+            
+            <!-- Ecommerce Management -->
+            <div class="service-item reverse">
+                <div class="service-image">
+                    <img src="https://images.unsplash.com/photo-1517292987719-0369a794ec0f" alt="Ecommerce Management" class="img-fluid">
+                </div>
+                <div class="service-content">
+                    <h3>Ecommerce Management</h3>
+                    <p>Many churches and spiritual organizations sell products such as books, merchandise, or other items to support their ministry. Our ecommerce management services ensure that your online store is efficient, user-friendly, and secure.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Platform Setup and Customization: Building and tailoring your ecommerce platform to meet your needs.</li>
+                        <li><i class="fas fa-check-circle"></i> Product Listing Optimization: Enhancing listings for search engines and user experience.</li>
+                        <li><i class="fas fa-check-circle"></i> Inventory and Order Management: Streamlining inventory tracking and order fulfillment.</li>
+                        <li><i class="fas fa-check-circle"></i> Secure Payment Integration: Implementing safe payment gateways for customer trust.</li>
+                        <li><i class="fas fa-check-circle"></i> Ongoing Support: Providing updates and maintenance to keep your store running smoothly.</li>
+                    </ul>
+                    <p>Let us handle the technical aspects of your online store so you can focus on your mission.</p>
+                </div>
+            </div>
+            
+            <!-- Product/Merch Design -->
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952" alt="Product and Merchandise Design" class="img-fluid">
+                </div>
+                <div class="service-content">
+                    <h3>Product/Merch Design</h3>
+                    <p>From apparel to books to spiritual art, we offer design services for a wide range of products. Our team creates designs that align with your brand and appeal to your audience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Concept Development: Creating product ideas that reflect your church's identity and mission.</li>
+                        <li><i class="fas fa-check-circle"></i> Design and Production: Working with manufacturers to produce high-quality merchandise.</li>
+                        <li><i class="fas fa-check-circle"></i> Project Management: Overseeing the design process from concept to final product.</li>
+                        <li><i class="fas fa-check-circle"></i> Graphic Design: Providing designs for books, albums, and other publications.</li>
+                    </ul>
+                    <p>Enhance your ministry's reach with thoughtfully designed products that inspire and connect with your community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to elevate your church's digital presence?</h3>
+                    <p>We'd love to hear about your project and how we can help your spiritual organization thrive online.</p>
+                    <a href="mailto:hi@godxp.com" class="btn btn-primary email-btn">
+                        <i class="fas fa-envelope"></i> hi@godxp.com
+                    </a>
+                </div>
+                <div class="contact-image">
+                    <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3" alt="Spiritual Digital Services" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#hero">
+                        <span class="logo-text">GodXP</span>
+                    </a>
+                    <p>Fueling a culture of spiritual fitness since 2016</p>
+                </div>
+                <div class="footer-nav">
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GodXP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#hero" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
