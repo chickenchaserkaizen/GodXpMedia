@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <style>
+    .text { 
+      font-family: 'Playfair Display', serif;
+      font-weight: bold;
+      font-size: 40px;
+      fill: #042940;
+    }
+    .accent {
+      fill: #ffd200;
+    }
+  </style>
+  <rect class="accent" x="65" y="50" width="70" height="3" rx="1.5" />
+  <text x="50" y="45" class="text">GodXP</text>
+</svg>
