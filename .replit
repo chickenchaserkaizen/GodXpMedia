@@ -6,7 +6,7 @@ packages = ["openssl", "postgresql"]
 
 [deployment]
 deploymentTarget = "static"
-publicDir = "dist/public"
+publicDir = "./templates"
 
 [workflows]
 runButton = "Project"
